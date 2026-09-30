@@ -100,7 +100,7 @@ class MainNavigation extends HTMLElement {
 
             <ul class="dropdown-menu">
               <li><a href="${workPath}work1.html">01. Project One</a></li>
-              <li><a href="${workPath}work2.html">02. Project Two</a></li>
+              <li><a href="/work/work2.html">02. Project Two</a></li>
               <li><a href="${workPath}work3.html">03. Project Three</a></li>
               <li><a href="${workPath}work4.html">04. Project Four</a></li>
               <li><a href="${workPath}work5.html">05. Project Five</a></li>
