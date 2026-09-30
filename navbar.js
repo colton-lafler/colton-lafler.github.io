@@ -74,7 +74,7 @@ class MainNavigation extends HTMLElement {
           right: 0;
           width: 200px;
           padding: 10px;
-          margin: 8px 0 0;
+          margin: 0;
           list-style: none;
           background: #222;
           border: 1px solid #333;
