@@ -9,6 +9,7 @@ class MainNavigation extends HTMLElement {
 
     const homePath = isWorkPage ? '../index.html' : 'index.html';
     const aboutPath = isWorkPage ? '../about.html' : 'about.html';
+    const resumePath = isWorkPage ? '../resume.html' : 'resume.html';
     const workPath = isWorkPage ? './' : 'work/';
 
     this.innerHTML = `
@@ -109,6 +110,9 @@ class MainNavigation extends HTMLElement {
 
           <li>
             <a href="${aboutPath}">About Me</a>
+          </li>
+          <li>
+            <a href="${resumePath}">Resume</a>
           </li>
 
           <li class="dropdown">
